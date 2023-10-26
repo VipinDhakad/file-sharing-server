@@ -14,7 +14,7 @@ const FileSchema = new mongoose.Schema({
         required: true,
         default: 0
     },
-})
+}, {timestamps:true})
 
 const File = mongoose.model('file', FileSchema);
 
