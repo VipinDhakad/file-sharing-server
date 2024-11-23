@@ -4,6 +4,7 @@ import router from './routes/routes.js';
 import DBConnection from './database/db.js';
 import dotenv from 'dotenv';
 import path from 'path';
+import './cleaner.js';
 
 dotenv.config();
 
